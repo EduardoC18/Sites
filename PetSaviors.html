@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Apresenta o sistema APP + Coleira da empresa PetSaviors de forma interativa e modernizada">
+    <meta name="keywords" content="coleira, APP, animais perdidos, localizar">
+    <meta name="author" content="Equipa2_LAPR1">
+
+    <title>PetSaviors</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+
+    <style>
+
+        body {
+            background-image: url('https://blog4.mfrural.com.br/wp-content/uploads/2020/07/animais-domesticos-1024x654.jpg');
+            background-position: center -50px; 
+            background-repeat: no-repeat;
+            background-size: cover;     
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 10px;
+            padding: 0px;
+        }
+
+        header {
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+            margin-bottom: 0px;
+        }
+
+        h1 {
+            font-size: 24px;
+            font-weight: bold;
+	    padding: 20px;
+            margin: 0px;
+            font-family: 'Poppins', sans-serif;
+            transition: transform, text-shadow 0.3s ease;
+            border-radius: 10px;
+        }
+
+        @keyframes swing {
+            15% { transform: translateX(5px) rotate(5deg); }
+            30% { transform: translateX(-5px) rotate(-5deg); }
+            50% { transform: translateX(3px) rotate(3deg); }
+            70% { transform: translateX(-3px) rotate(-3deg); }
+            100% { transform: translateX(0) rotate(0); }
+        }
+
+        h1:hover {
+            text-shadow: 0 0 20px rgba(255, 255, 0, 0.8);
+            animation: swing 1s ease forwards;
+        }
+
+        h2 {
+            transition: transform 0.5s ease, text-shadow 0.3s ease;
+        }
+
+        h2:hover {
+            transform: scale(1.1); 
+            text-shadow: 0 0 20px rgba(255, 255, 0, 0.8);
+        }
+
+        p {
+            transition: text-shadow 0.3s ease;
+        }
+
+        p:hover {
+            text-shadow: 0 0 20px rgba(255, 255, 0, 0.8);
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0px;
+            margin: 30px;
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+        }
+        
+        .image {
+            width: 200px;
+            height: 200px;
+            margin-top: 10px;
+        }
+
+        nav a {
+            color: white;
+            margin: 10px;
+            text-decoration: none;
+            font-size: 16px;
+            font-family: 'Poppins', sans-serif;
+            font-weight: bold;
+            padding: 10px 16px;
+            border: 3px solid rgba(150, 150, 150, 1);
+            border-radius: 15px;
+            background-color: rgba(0, 0, 0, 0.5);
+            transition: background-color 1s ease-in-out, color 0.8s ease-in-out, border 0.8s ease-in-out;
+        }
+
+        nav a:hover {
+            background-color: rgba(255, 255, 255, 0.3); 
+            color: black;
+            border: 3px solid rgba(0, 0, 0, 0.2); 
+        }
+        
+        .heart {
+            font-size: 24px; 
+            text-align: center;
+            margin-top: 10px;
+            color: red;
+        }
+
+        main {
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+	    margin-top: 10px;
+            padding: 10px;
+            display: flex;
+            gap: 300px;
+            font-family: 'Poppins', sans-serif;
+            justify-content: center;
+        }
+
+        .coluna {
+            flex: 1; 
+            padding: 10px;
+            text-align: center;
+        }
+
+
+        footer {
+            padding: 2px;
+            margin: 10px 0px;
+            font-family: 'Poppins', sans-serif;            
+            background-color: rgba(0, 0, 0, 0.5); 
+            font-size: 14px;
+            border-radius: 10px;
+        }    
+
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+        <h1>GConheça a nossa coleira para que nunca mais desapareça um animal.</h1>
+    </header>
+
+    <nav>
+         <ul>
+	    <li><a href="https://eduardoc18.github.io/Sites/Sobre Nós.html">Sobre Nós</a></li>
+	    <li><a href="https://eduardoc18.github.io/Sites/Problema.html">Problema</a></li>
+            <li><a href="https://eduardoc18.github.io/Sites/Solução & Protótipo.html">Solução & Protótipo</a></li>
+            <li><a href="https://eduardoc18.github.io/Sites/Juntos Pela Proteção Animal!.html">Juntos Pela Proteção Animal!</a></li>
+         </ul>
+    </nav>
+
+    <main>
+
+        <section id="home">
+            <h2>Projeto</h2>
+            <p>Este Website é dedicado à apresentação do Projeto desenvolvido com vista à implementação dos Objetivos do Desenvolvimento Sustentável, propostos pela Organização das Nações Unidas com prazo até 2030. Este Website é ainda mais do que isso, é uma experiência, por isso, divirta-se.</p>
+        </section>
+
+        <section id="sobre">
+            <h2>Equipa PetSaviors</h2>
+            <p>A Equipa dos bastidares deste projeto é intitulada de PetSaviors pela conexão direta ao intuito do Projeto e é formada por: André Pereira, Eduardo Fino, Eliana Silva e Guilherme Machado.</p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 PetSaviors. Todos os direitos reservados.</p>
+    </footer>
+    
+    <img class="image" src="https://i.postimg.cc/QdH8gGs3/logo-removebg-preview.png">
+
+</body>
+</html>
