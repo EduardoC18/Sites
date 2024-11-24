@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Solução & Protótipo</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+
+        <style>
+            body {
+                font-family: Poppins, sans-serif;
+                margin: ;
+                padding: 0;
+                background-color: #f4f4f9;
+                color: #333;
+            }
+            nav {
+                margin: 20px 0; 
+            }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 10px 0px;
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: bold;
+            padding: 10px 16px;
+            border: 3px solid rgba(150, 150, 150, 1);
+            border-radius: 15px;
+            background-color: rgba(0, 0, 0, 0.5);
+            transition: background-color 1s ease-in-out, color 0.8s ease-in-out, border 0.8s ease-in-out;
+        }
+        nav a:hover {
+            background-color: rgba(255, 255, 255, 0.3); 
+            color: black;
+            border: 3px solid rgba(0, 0, 0, 0.2); 
+        }
+
+            h1, h3 {
+                margin: 50px;
+                text-align: center;
+                font-family: 'Poppins', sans-serif;
+            }
+            main {
+                padding: 20px;
+                margin: 10 auto;
+                background-color: #f4f4f9;
+               
+  
+            }
+            .model-viewer-container {
+                text-align: center;
+                margin: 20px 0;
+                display: flex;
+                justify-content: center; 
+                gap: 20px;
+            }
+            .caption {
+          	 text-align: center; 
+           	 margin-top: 5px;
+            	 font-weight: bold; 
+            	 position: relative;
+            	 z-index: 1; 
+            }
+            iframe {
+                 border-radius: 20px;
+		 box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+                 margin: 0 10px;
+            }
+            .iframe-container{
+                 overflow: hidden;
+            }
+        </style>
+    </head>
+
+    <body>
+        <main>
+    <nav>
+        <ul>
+       	    <li><a href="https://eduardoc18.github.io/Sites/introducao.html">Sobre Nós</a></li>
+	    <li><a href="https://eduardoc18.github.io/Sites/problema.html">Problema</a></li>
+            <li><a href="https://eduardoc18.github.io/Sites/conclusao.html">Juntos Pela Proteção Animal!</a></li>
+        </ul>
+    </nav>
+            <h1>Qual é a nossa solução?</h1>
+
+            <!-- Modelo 3D através de IFRAME -->
+            <div class="model-viewer-container">
+                <div class="iframe-container">
+                <iframe src="https://guilhermemachado-isep.github.io/repositorio-modelos/model/index2.html" 
+        		width="500"
+			height="350" 
+        		frameborder="0"
+        		allowfullscreen></iframe>
+			<div class="caption">Coleira</div>
+
+                 </div>
+                <div class="iframe-container">
+                <iframe src="https://guilhermemachado-isep.github.io/repositorio-modelos/model/index.html" 
+			width="350"
+			height="350" 
+        		frameborder="0"
+        		allowfullscreen></iframe>
+			<div class="caption">Protótipo 3D</div>
+                </div>
+            </div>
+
+            <h1>A nossa coleira, modificada para garantir a máxima segurança do seu pequeno companheiro!</h1>
+            <h3><strong>A nossa coleira e as suas funcionalidades são geridas na app respetiva, o que permite um constante controle da situação. Equipada com um emissor luminoso, um sonoro e um outro geolocalizador, a nossa coleira, garante aos donos o conforto de saber onde o seu amigo se encontra a qualquer momento! Nunca mais terá de sofrer com o pensamento deprimente da perda do seu animal!</strong></h3>
+        </main>
+    </body>
+</html>
+
